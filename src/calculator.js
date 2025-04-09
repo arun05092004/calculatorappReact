@@ -1,4 +1,5 @@
 import {useState} from "react";
+import "./calc.css";
 const Calc=()=>{
   const [input,setInput]=useState('');
   const [result,setResult]=useState('');
